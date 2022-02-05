@@ -16,7 +16,7 @@
 </div>
 <nav>
 <ul>
-  <li><a href="welcome.jsp"><b>Home</b></a></li>
+  <li><a href="./"><b>Home</b></a></li>
   <li><a href="#news"><b>News</b></a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn"><b>Companies</b></a>

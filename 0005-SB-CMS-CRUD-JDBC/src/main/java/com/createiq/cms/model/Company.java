@@ -1,10 +1,17 @@
 package com.createiq.cms.model;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 public class Company {
 
+	@NotNull(message = "id should be mandatory")
 	private Integer cid;
+	@NotEmpty(message = "Name should not empty")
 	private String cname;
+	@NotEmpty(message = "Address should not empty")
 	private String caddress;
+	@NotNull(message = "Please enter the Capital")
 	private Double ccapital;
 	
 	public Company() {

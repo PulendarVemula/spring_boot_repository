@@ -19,8 +19,8 @@
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn"><b>Companies</b></a>
     <div class="dropdown-content">
-      <a href="./allCompanies">All Companies</a>
-      <a href="./addCompany">Add Company</a>
+      <a href="/allCompanies">All Companies</a>
+      <a href="/addCompany">Add Company</a>
     </div>
   </li>
 </ul>

@@ -15,12 +15,13 @@
 </div>
 <nav>
 <ul>
-  <li><a href="welcome.jsp"><b>Home</b></a></li>
+  <li><a href="./"><b>Home</b></a></li>
   <li><a href="#news"><b>News</b></a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn"><b>Companies</b></a>
     <div class="dropdown-content">
-      <a href="./allCompanies">All Companies</a>
+      <a href="./rest/xml/allComp">All Companies {xml}</a>
+      <a href="./rest/json/allComp">All Companies {json}</a>
       <a href="./addCompany">Add Company</a>
     </div>
   </li>
@@ -52,6 +53,6 @@
 </c:forEach>
 </table>
 </div>
-
 </body>
+<jsp:include page="footer.jsp"></jsp:include>
 </html>
